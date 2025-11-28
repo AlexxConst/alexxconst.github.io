@@ -1316,7 +1316,7 @@ template {
     }
 
     .promo__subtitle {
-        line-height: 48px;
+        display: none;
     }
     .portfolio__wrapper {
         gap: 16px;
