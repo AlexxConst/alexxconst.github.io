@@ -331,6 +331,12 @@ template {
     color: #fff;
     z-index: 2;
 }
+
+.hero__title {
+    font-size: 72px;
+    line-height: 1.1;
+}
+
 .promo__subtitle {
     position: relative;
     padding-left: 10px;
@@ -346,7 +352,7 @@ template {
     width: 36px;
     height: 36px;
     border-radius: 100%;
-    background: #ffa501;
+    background: #2b1de8;
 }
 .promo__btns {
     margin-top: 25px;
@@ -867,6 +873,13 @@ template {
     border-radius: 10px;
 }
 
+.skills__item img {
+    width: 100%;
+    max-width: 130px;
+    height: auto;
+    object-fit: contain;
+}
+
 .skills__item-icon {
     display: flex;
     align-items: center;
@@ -1034,6 +1047,8 @@ template {
     margin-bottom: 0;
     top: -9px;
     left: 12px;
+
+
 }
 .contacts__triggers {
     grid-column: 1/3;
@@ -1299,6 +1314,23 @@ template {
         width: 100%;
         padding: 0 10px;
     }
+
+    .promo__subtitle {
+        line-height: 48px;
+    }
+    .portfolio__wrapper {
+        gap: 16px;
+    }
+
+    .title__fz47 {
+        padding-top: 15px;
+        line-height: 55px;
+        font-size: 40px;
+    }
+    .hero__title {
+        font-size: 36px;
+        line-height: 1.15;
+    }
     .title_fz48 {
         font-size: 26px;
     }
@@ -1314,7 +1346,7 @@ template {
         padding-left: 20px;
     }
     .promo {
-        /* background: url(../img/main_bg.jpg) no-repeat 57% / cover; */
+        background: url(../img/main_bg.jpg) no-repeat 57% / cover;
     }
     .promo__btns {
         margin-top: 30px;
